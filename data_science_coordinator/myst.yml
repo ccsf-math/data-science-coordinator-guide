@@ -1,0 +1,39 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: bab9d317-1b4b-4abe-b2cb-3911c133861e
+  title: "Data Science Coordinator Guide"
+  authors: 
+  - name: "Shawn Wiggins"
+    affiliations: 
+    - "City College of San Francisco"
+  funding:
+  - statement: This work was supported by California Education Learning Lab through the Building Inclusive and Collaborative Foundations in Data Science grant.
+  github: https://github.com/ccsf-math-108/materials
+  license: "CC-BY-NC-SA-4.0"
+  toc:
+    - file: index.md
+    - file: responsibilities.md
+    - file: empowerment.md
+    - file: infrastructure.md
+      children:
+        - file: github.md
+          children:
+            - file: github_organizations.md
+            - file: github_repositories.md
+            - file: github_projects.md
+    - file: support.md
+    - file: advising.md
+    - file: employment.md
+    - file: collaboration.md
+    - file: communication.md
+    - file: curriculum.md
+    - file: events.md
+
+site:
+  template: book-theme
+  options:
+    hide_footer_links: true
+    favicon: images/favicon.ico
+    logo: images/ccsf_logo.png
+    logo_dark: images/ccsf_logo_dark.png
