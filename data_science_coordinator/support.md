@@ -1,15 +1,8 @@
 # Support
 
 ## Responsibility
-The Data Science coordinator organizes specific tutoring opportunities for MATH 108 students. Since MATH 108 is such a new course, we usually need to provide additional support for our tutors and establish alternative tutoring opportunities in order to provide a similar level of tutoring for our MATH 108 students that the rest of our students in the Department experience.
+_The Data Science coordinator organizes specific tutoring opportunities for MATH 108 students. Since MATH 108 is such a new course, we usually need to provide additional support for our tutors and establish alternative tutoring opportunities in order to provide a similar level of tutoring for our MATH 108 students that the rest of our students in the Department experience._
 
----
-
-## Contacts
-- Charles Hutchins: chutchin@ccsf.edu
-- Kseniya Usovich: k_usovich@berkeley.edu
-- Sean Morris: sean.smorris@berkeley.edu
- 
 ---
 
 ## Overview
@@ -17,27 +10,47 @@ We believe that a key feature of Berkeley's success with DATA 8 was the extensiv
 
 ---
 
-### Math Lab Tutors
-The Math Lab hosts our professional and student tutors. Charles serves as the Math Lab Coordinator where he manages the hiring and scheduling for the tutors. Most, but not all of the tutors, are able support MATH 108.
+## General Tasks
+- Ensure that relevant faculty and staff have access to non-public conversations and materials on GitHub.
+- Communicate with the Math Lab Coordinator and the Data Ambassador Coordinator(s) provide tutoring and mentoring for MATH 108 students.
+- Keep MATH 108 support documents (e.g., code documentation, Jupyter support materials) up to date and accessible to faculty, staff, and students.
 
 ---
 
-### Data Ambassadors
-Through a Learning Grant, we have supported remote tutoring and mentoring via our **Data Ambassadors** program. The program originally featured UC Berkeley students pursuing degrees in Data Science, many of whom were former community college students. These ambassadors provided virtual homework help and mentorship.
-
-Over time, we have expanded the program to include CCSF students as ambassadors and extended participation to students from Laney College and Berkeley City College.
-
-Kseniya has served as the primary organizer of the program. She helps hire ambassadors at Berkeley and coordinates their availability with the needs of each participating college. The Data Science Coordinator works with Kseniya to set the mentoring and tutoring schedule, ensure ambassadors have access to relevant materials and sample solutions, and share this information with students, faculty, and staff at CCSF.
+## More Details
 
 ---
 
-## Onboarding Process for Support Staff
-
-To ensure support staff (e.g., Data Ambassadors or Math Lab Tutors) are fully equipped to assist with MATH 108, follow the steps below:
+### Support Staff
 
 ---
 
-### 1. Confirm Access Requirements
+#### Math Lab Tutors
+The Math Lab hosts our professional and student tutors. {term}`Charles Hutchins` serves as the Math Lab Coordinator where he manages the hiring and scheduling for the tutors. Most, but not all of the tutors, are able support MATH 108. For as long as funding and tutor availability allows, all of our MATH 108 sections will be supported by an embedded tutor from the Math Lab.
+
+---
+
+#### CS Tutor Squad
+{term}`Jonathan Potter` said that we can direct our MATH 108 students to the CS Tutor Squad for Python support. We should inform our MATH 108 students that the Tutor Squad is focus on supporting Python programming and not MATH 108 content in general.
+
+---
+
+#### Data Ambassadors
+Through a Learning Lab grant, we have supported remote tutoring and mentoring via our Data Ambassadors program. The program originally featured UC Berkeley students pursuing degrees in Data Science, many of whom were former community college students. These ambassadors provided virtual homework help and mentorship. Over time, we have expanded the program to include CCSF students as ambassadors and extended participation to students from Laney College and Berkeley City College.
+
+{term}`Kseniya Usovich` has served as the primary organizer of the program at Berkeley. She helps hire ambassadors at Berkeley and coordinates their availability with the needs of each participating college. The Data Science Coordinator works with {term}`Kseniya <Kseniya  Usovich >` to set the mentoring and tutoring schedule, ensure ambassadors have access to relevant materials and sample solutions, and share this information with students, faculty, and staff at CCSF.
+
+Unless we receive an extension on our Learning Lab grant, we will no longer receive funding specifically for Data Ambassadors.
+
+---
+
+### Onboarding Process for Support Staff
+
+To ensure support staff have access to conversations on GitHub, content preview, and assignment sample solutions, follow the steps below:
+
+---
+
+#### 1. Confirm Access Requirements
 
 Ensure that each support staff member has:
 
@@ -48,28 +61,24 @@ Ensure that each support staff member has:
   - [Data Ambassadors](https://github.com/orgs/ccsf-math-108/teams/data-ambassadors)
   - [Math Lab Tutors](https://github.com/orgs/ccsf-math-108/teams/math-lab-tutors)
 
-> _Purpose: This gives them access to materials, sample solutions, and relevant team discussions._
+---
+
+#### 2. Google Account Setup
+
+If the staff member does not have a `@mail.ccsf.edu` Google account:
+
+1. Collect their preferred Google-based email address (e.g., a `@berkeley.edu` or `@gmail.com` address)
+2. Send that email address to {term}`Sean Morris` so it can be added for login access
 
 ---
 
-### 2. Google Account Setup
-
-If the staff member **does not** have a `@mail.ccsf.edu` Google account:
-
-- Collect their preferred **Google-based email address** (e.g., a `@berkeley.edu` or `@gmail.com` address)
-- Send that email address to **Sean** so it can be added for login access
-
-> _Note: Berkeley-affiliated emails work as they are associated with Google accounts._
-
----
-
-### 3. GitHub Authentication on JupyterHub
+#### 3. GitHub Authentication on JupyterHub
 
 To enable GitHub-based authentication on the JupyterHub:
 
-1. **Invite** the staff member (by GitHub username) to the `ccsf-math-108` GitHub organization  
-   - Add them to the appropriate team (typically **Data Ambassadors**)
-2. Have them [open a terminal](https://jupyterlab.readthedocs.io/en/latest/user/terminal.html) in the JupyterHub
-3. In the terminal, type:
+1. Invite the staff member (by GitHub username) to the `ccsf-math-108` GitHub organization  
+2. Add them to the appropriate team (typically Data Ambassadors)
+3. Have them [open a terminal](https://jupyterlab.readthedocs.io/en/latest/user/terminal.html) in the JupyterHub
+4. In the terminal, type:
    ```bash
    gh auth login

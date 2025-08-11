@@ -18,10 +18,8 @@ project:
     - file: infrastructure.md
       children:
         - file: github.md
-          children:
-            - file: github_organizations.md
-            - file: github_repositories.md
-            - file: github_projects.md
+        - file: jupyterhub.md
+        - file: otter.md
     - file: support.md
     - file: advising.md
     - file: employment.md
@@ -29,6 +27,7 @@ project:
     - file: communication.md
     - file: curriculum.md
     - file: events.md
+    - file: contacts.md
 
 site:
   template: book-theme

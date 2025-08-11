@@ -1,6 +1,6 @@
 # Responsibilities
 
-The following responsibilities of the Data Science Coordinator are derived from the [Instructional (Department) Review: Fall 2024 Mathematics](https://ccsf.curricunet.com/DynamicReports/AllFieldsReportByEntity/80069?entityType=Module&reportId=146) submitted by Katia Fuchs.
+The following responsibilities of the Data Science coordinator are derived from the [Instructional (Department) Review: Fall 2024 Mathematics](https://ccsf.curricunet.com/DynamicReports/AllFieldsReportByEntity/80069?entityType=Module&reportId=146).
 
 ## Coordinator Responsibilities
 1. [Empowerment](empowerment): The Data Science coordinator facilitates a weekly MATH 108 Community of Practice for all instructors currently teaching MATH 108 and for instructors who are interested in teaching the course at a future date.
