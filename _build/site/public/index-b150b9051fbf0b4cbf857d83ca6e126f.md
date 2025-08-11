@@ -2,7 +2,9 @@
 title: Data Science Coordinator Guide
 authors:
     - name: Shawn Wiggins
-      affiliations: City College of San Francisco
+        affiliations:
+            institution: City College of San Francisco
+            department:  Mathematics
 ---
   
  This document outlines the responsibilities of the Mathematics Department's Data Science Coordinator.
