@@ -5,7 +5,7 @@ project:
   title: "Data Science Coordinator Guide"
   funding:
   - statement: This work was supported by California Education Learning Lab through the Building Inclusive and Collaborative Foundations in Data Science grant.
-  github: https://github.com/ccsf-math-108/materials
+  github: https://github.com/ccsf-math/data-science-coordinator-guide
   license: "CC-BY-NC-SA-4.0"
   toc:
     - file: index.md

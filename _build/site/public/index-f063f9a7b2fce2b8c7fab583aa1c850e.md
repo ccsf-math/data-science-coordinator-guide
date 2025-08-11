@@ -4,8 +4,7 @@ authors:
     - name: Shawn Wiggins
       affiliations: 
         - institution: City College of San Francisco
-          department: Mathematics
-          url: https://www.ccsf.edu/math
+        - department: Mathematics
 ---
   
  This document outlines the responsibilities of the Mathematics Department's Data Science Coordinator.
