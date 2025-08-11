@@ -1,5 +1,6 @@
 ---
 title: Data Science Coordinator Guide
+affiliation: City College of San Francisco
 ---
   
  This document outlines the responsibilities of the Mathematics Department's Data Science Coordinator.

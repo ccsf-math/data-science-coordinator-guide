@@ -1,5 +1,6 @@
 ---
 title: Collaboration
+author: ""
 ---
 
 ## Responsibility

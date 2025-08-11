@@ -3,10 +3,6 @@ version: 1
 project:
   id: bab9d317-1b4b-4abe-b2cb-3911c133861e
   title: "Data Science Coordinator Guide"
-  authors: 
-  - name: "Shawn Wiggins"
-    affiliations: 
-    - "City College of San Francisco"
   funding:
   - statement: This work was supported by California Education Learning Lab through the Building Inclusive and Collaborative Foundations in Data Science grant.
   github: https://github.com/ccsf-math-108/materials
