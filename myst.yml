@@ -15,6 +15,7 @@ project:
       children:
         - file: github.md
         - file: jupyterhub.md
+        - file: materials_management.md
         - file: otter.md
     - file: support.md
     - file: advising.md
