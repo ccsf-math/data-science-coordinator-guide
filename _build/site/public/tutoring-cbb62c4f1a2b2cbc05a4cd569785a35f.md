@@ -1,0 +1,10 @@
+# Tutoring
+
+## Responsibility
+The Data Science coordinator organizes specific tutoring opportunities for MATH 108 students. Since MATH 108 is such a new course, we usually need to provide additional support for our tutors and establish alternative tutoring opportunities in order to provide a similar level of tutoring for our MATH 108 students that the rest of our students in the Department experience.
+
+## Contacts
+- Charles Hutchins: chutchin@ccsf.edu
+- Kseniya Usovich: k_usovich@berkeley.edu
+
+## Overview

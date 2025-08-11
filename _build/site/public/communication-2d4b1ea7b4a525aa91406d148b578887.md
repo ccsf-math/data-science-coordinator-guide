@@ -1,0 +1,20 @@
+# Communication
+
+## Responsibility
+The Data Science coordinator gives regular reports at Math department meetings. These updates keep our faculty knowledgeable of the growing program and our relationships with institutions such as the relationship we have with Berkeley City College, Laney College, UC Berkeley, and UC Merced where we are focusing on improving transfer pathways for Data Science.
+
+---
+
+## Contacts
+- Katia Fuchs: efuchs@ccsf.edu
+- Shawn Wiggins: swiggins@ccsf.edu
+- Kyla Oh: koh@peralta.edu
+---
+
+## Overview
+During the Mathematics Department meetings, there are usually 5-10 minute time slots for coordinators to update the department on their work. For the Data Science Coordinator, we have been informing the department about any training opportunities, grant updates/developments, upcoming events, and general updates about the program. 
+
+---
+
+### Data Science Grand Challenge
+Through the California Learning Lab's Data Science Grant Challenge, we are involved with the [Building Inclusive and Collaborative Foundations in Data Science](https://calearninglab.org/project/building-inclusive-and-collaborative-foundations-in-data-science/) grant. In partnership with Berkeley City College, Laney College, UC Berkeley, and UC Merced, this grant supports our tutoring, faculty training, and transfer pathway development. Katia is the CCSF PI and Shawn is the CCSF Co-PI for this grant.

@@ -1,0 +1,7 @@
+# GitHub
+
+[GitHub](https://github.com/) is a web-based platform for hosting files in repositories, collaborating on projects, and tracking changes over time. It uses Git, an open-source version control system, to manage and record those changes.
+
+We use GitHub to organize course materials, manage user access, facilitate conversations, and track issues for all content and contributors associated with our courses and programs. This resource contains what you need to know about how we use GitHub.
+
+If you don't already have a GitHub account you'd like to use, you'll need to create one by [signing up](https://github.com/signup).

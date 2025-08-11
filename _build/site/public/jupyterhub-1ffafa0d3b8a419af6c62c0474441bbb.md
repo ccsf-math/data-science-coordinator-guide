@@ -1,0 +1,115 @@
+# JupyterHub
+
+A [JupyterHub](https://jupyter.org/hub), grant-supported by [Cloudbank](https://www.cloudbank.org/) and [2i2c](https://2i2c.org/), is the central piece of our technology. The hub's address is `https://ccsf.cloudbank.2i2c.cloud`.
+
+When a user clicks an `nbgitpuller` link (e.g., from Canvas or a website), the system checks whether the user is authenticated with JupyterHub. If not, the user is redirected through the authentication flow (e.g., via CILogon + Google). Once authenticated, the `nbgitpuller` link pulls content from a GitHub repository into the user’s environment and optionally opens a specific notebook or file.
+
+```mermaid
+flowchart TD
+    A[User clicks nbgitpuller link in Canvas or Website] --> B[Is user authenticated with JupyterHub?]
+
+    B -- No --> C[Redirect to CILogon]
+    C --> D[User selects Google as Identity Provider]
+    D --> E[Redirect to Google Login]
+    E --> F[User logs in with Google]
+    F --> G[Google returns OAuth token to CILogon]
+    G --> H[CILogon returns assertion to JupyterHub]
+    H --> I[JupyterHub authenticates user]
+
+    B -- Yes --> I
+
+    I --> J[nbgitpuller processes URL]
+    J --> K[Fetch content from GitHub]
+    K --> L[Pull files into user's environment]
+    L --> M[Open notebook or landing page (optional)]
+
+    subgraph Google Services
+        F
+        G
+    end
+
+    subgraph CILogon
+        D
+        E
+        H
+    end
+
+    subgraph JupyterHub
+        B
+        C
+        I
+        J
+        L
+        M
+    end
+
+    subgraph GitHub
+        K
+    end
+
+    subgraph Canvas or Website
+        A
+    end
+```
+
+### Authentication 
+Cloudbank hubs are configured to use [CILogon](https://www.cilogon.org/) to manage user access. By default, users authenticate with their Google accounts. At CCSF, our `mail.ccsf.edu` domain is associated with Google, so any user logging in with a `mail.ccsf.edu` account will be automatically approved.
+
+If a user logs in with a different Google-associated domain (e.g., `gmail.com`, `berkeley.edu`), their account must be manually added to an approved list. To request access, the user should send their Google account email address to {term}`Sean Morris`. Once the account is approved, the user will be able to log in with that Google account.
+
+```mermaid
+flowchart TD;
+    A[User accesses JupyterHub] --> B[Redirect to CILogon]
+    B --> C[User selects Google as Identity Provider]
+    C --> D[Redirect to Google Login]
+    D --> E[User logs in with Google]
+    E --> F[Google returns OAuth token to CILogon]
+    F --> G[CILogon returns assertion to JupyterHub]
+    G --> H[JupyterHub authenticates user]
+    H --> I[Spawn user server]
+    I --> J[User lands on JupyterHub interface]
+    J --> K[User interacts with JupyterHub]
+    
+    subgraph Google Services
+        E
+        F
+    end
+
+    subgraph CILogon
+        C
+        D
+        G
+    end
+
+    subgraph JupyterHub
+        B
+        H
+        I
+        J
+        K
+    end
+```
+
+### `nbgitpuller`
+In order to synchronize the content hosted on GitHub with the content on a user's JupyterHub storage while automatically handling the conflicts involved `git`, we use the application [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Through `nbgitpuller`, we create links which our users click to pull in content available on a specified GitHub repository with the user's files on the specified JupyterHub server. When there is a merge conflict, the tool handles the merge automatically according to the rules posted in the [`nbgitpuller` documentation](https://nbgitpuller.readthedocs.io/en/latest/topic/automatic-merging.html).
+
+```mermaid
+flowchart TD;
+    A[User clicks nbgitpuller link] --> B[nbgitpuller parses URL and identifies repo]
+    B --> C[nbgitpuller fetches repository content from GitHub]
+    C --> D[nbgitpuller pulls files into user's Jupyter environment]
+
+    subgraph GitHub
+        C
+    end
+
+    subgraph Canvas/Website
+        A
+    end
+
+    subgraph JupyterHub
+        B
+        D
+    end
+
+```

@@ -1,0 +1,19 @@
+# Curriculum
+
+## Responsibility
+The Data Science coordinator works with the department chair, the department curriculum committee, and other college stakeholders to participate in the development and modification of new and existing Data Science curriculum.
+
+---
+
+## Contacts
+- Katia Fuchs: efuchs@ccsf.edu
+- Shawn Wiggins: swiggins@ccsf.edu
+- J Potter:
+- Craig Persiko:
+- Craig Kleinman:
+- Rachel Cohen: 
+---
+
+## Overview
+
+The data-related programs

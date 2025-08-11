@@ -1,0 +1,13 @@
+---
+title: Contacts
+---
+
+:::{glossary}
+Shawn Wiggins
+: Email Address: swiggins@ccsf.edu
+: Notes: Former Data Science Coordinator, Mathematics Department Chair
+
+Sonny Mohammadzadeh
+: Email Address: smohammadzadeh@ccsf.edu
+: Notes: Former Data Science Coordinator, Mathematics Department Chair 
+:::

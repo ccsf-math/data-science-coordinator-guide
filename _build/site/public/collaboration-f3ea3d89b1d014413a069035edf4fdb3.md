@@ -1,0 +1,15 @@
+# Collaboration
+
+## Responsibility
+The Data Science coordinator seeks to build relationships with other departments, creating opportunities for students to apply their new Data Science skills in courses they take in other disciplines, thereby deeply enriching the student experience.
+
+---
+
+## Contacts
+- J Potter
+- 
+
+---
+
+## Overview
+Our vision around developing MATH 108 included the update of research methods courses in the sciences. Computer Science has modified their curriculum to include MATH 108 as a requirement in their Data Analytics certificate, and they generally accept MATH 108 as an alternative to their CS 110A course. We've had positive conversations with several other departments, but we have not observed any curriculum change that utilizes the content from MATH 108.

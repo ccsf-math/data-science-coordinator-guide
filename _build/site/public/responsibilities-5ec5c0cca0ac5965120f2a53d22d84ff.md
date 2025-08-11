@@ -1,0 +1,14 @@
+# Responsibilities
+
+The following responsibilities of the Data Science Coordinator are derived from the [Instructional (Department) Review: Fall 2024 Mathematics](https://ccsf.curricunet.com/DynamicReports/AllFieldsReportByEntity/80069?entityType=Module&reportId=146) submitted by Katia Fuchs.
+
+## Coordinator Responsibilities
+1. [Empowerment](empowerment): The Data Science coordinator facilitates a weekly MATH 108 Community of Practice for all instructors currently teaching MATH 108 and for instructors who are interested in teaching the course at a future date.
+1. [Technology](technology): The Data Science coordinator maintains the technology needed to run MATH 108.
+1. [Tutoring](tutoring): The Data Science coordinator organizes specific tutoring opportunities for MATH 108 students. Since MATH 108 is such a new course, we usually need to provide additional support for our tutors and establish alternative tutoring opportunities in order to provide a similar level of tutoring for our MATH 108 students that the rest of our students in the Department experience.
+1. [Advising](advising): The Data Science coordinator maintains a list of students who are well on their way to the Data Science AS and connects with them regularly to make sure they are getting what they need in terms of advising, encouragement, and mentorship. This is designed to close the loop on completions &mdash; avoiding students dropping out of the program for lack of support. 
+1. [Employment](employment): The Data Science coordinator works with employment specialists at the college to develop partnerships with local businesses and industries to create opportunities for students through both large and small internships, enabling students to apply their newly acquired Data Science skills.
+1. [Collaboration](collaboration): The Data Science coordinator seeks to build relationships with other departments, creating opportunities for students to apply their new Data Science skills in courses they take in other disciplines, thereby deeply enriching the student experience.
+1. [Reporting](reporting): The Data Science coordinator gives regular reports at Math department meetings. These updates keep our faculty knowledgeable of the growing program and our relationships with institutions such as the relationship we have with Berkeley City College, Laney College, UC Berkeley, and UC Merced where we are focusing on improving transfer pathways for Data Science.
+1. [Curriculum](curriculum): The Data Science coordinator works with the department chair, the department curriculum committee, and other college stakeholders to participate in the development and modification of new and existing Data Science curriculum. 
+1. The Data Science coordinator recruits speakers from the Data Science industry for the Math Department speaker series, bringing in speakers from a variety of professional fields to describe how they use Data Science in their professions.

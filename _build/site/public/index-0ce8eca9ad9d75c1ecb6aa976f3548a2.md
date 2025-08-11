@@ -1,0 +1,23 @@
+---
+title: Welcome to My Landing Page
+site:
+  hide_title_block: true
+  hide_toc: true
+  hide_outline: true
+---
+
++++ { "kind": "split-image" }
+
+Welcome
+
+# Welcome to My Landing Page
+
+Accelerating discovery through better scientific communication tools.
+
+![](https://raw.githubusercontent.com/rowanc1/pics/refs/heads/main/banff-tall.png)
+
+{button}`Documentation <https://mystmd.org/guide/website-landing-pages>`
+
++++ { "kind": "justified"}
+
+Justified Block
