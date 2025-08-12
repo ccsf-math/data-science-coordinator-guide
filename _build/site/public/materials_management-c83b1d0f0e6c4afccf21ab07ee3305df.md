@@ -1,5 +1,5 @@
 ---
-title: Materials Management
+title: Materials Management (Editing)
 ---
 
 For context, this page is assuming that you are working with our JupyterHub. With a few modifications, this guide will support working offline from your own computer. Additionally, this guide will reference the Fall 2025 semester. Make appropriate updates for other semesters.
@@ -48,11 +48,11 @@ We use Jupyter Notebooks for lectures and assignments, so most of our editing in
 As an editor, you should only edit the main notebooks found in the [materials repository]. Never edit the autograder or student version, since this will likely cause issues. For the following steps, assume that you are editing the file ~/materials/lec/lec01/lec01.ipynb:
 
 1. Open `~/materials/lec/lec01/lec01.ipynb` in Jupyter.
-1. Pull any updates from GitHub using the command `git pull`.
 1. Make the changes you want to make.
 1. Shutdown the notebook's kernel.
 1. Save the notebook.
 1. Run the `generate_dist_files` script by typing the command `./generate_dist_files` in a terminal in the `~/materials` directory.
+1. Pull any updates from GitHub using the command `git pull`.
 1. Stage the content you want to commit to GitHub. For example, the command `git add ~/materials/lec/lec01/*` will stage all the files in the `lec01` folder for the commit.
 1. Create the commit with an update message. For example, the command `git commit -m 'Copy content from previous semester'` will create a commit with a message.
 1. Push the commit to GitHub using the command `git push`.
@@ -60,7 +60,7 @@ As an editor, you should only edit the main notebooks found in the [materials re
 ---
 
 #### Distributing Content to Other Repositories
-The `generate_dist_files` script creates the `autograder` and `student` versions of each notebook and stores them in the `materials/dist` folder.
+The generate_dist_files script creates the autograder and student versions of each notebook and stores them in the materials/dist folder.
 
 ```mermaid
 flowchart TD;
@@ -69,14 +69,14 @@ flowchart TD;
     B --> D["Student version of notebook"]
 ```
 
-- For faculty and staff review, you'll want to share both versions of the notebook. If you want to share the content in `~/materials/lec/lec01/` with the staff, then you'll 
-    1. Run the command `cp -ru ~/materials/lec/lec01/* ~/materials-fa25-staff/lec/lec01/`. This assumes that the `lec/lec01` folders exist in the staff repository. You might need to create those ahead of time.
-    1. Change directories to the staff repository using the command cd `~/materials-fa25-staff`.
-    1. Stage and create a commit using `git add lec/lec01/*` and `git commit -m 'Update Lecture 01 from #11'`. The `#11` is a reference to issue 11 in the staff repository. This is good to include in order to follow how the commits are related to the issues in the project.
-    1. Push the commit using `git push`.
+- For faculty and staff review, you'll want to share both versions of the notebook. If you want to share the content in ~/materials/lec/lec01/ with the staff, then you'll 
+    1. Run the command cp -ru ~/materials/lec/lec01/* ~/materials-fa25-staff/lec/lec01/. This assumes that the lec/lec01 folders exist in the staff repository. You might need to create those ahead of time.
+    1. Change directories to the staff repository using the command cd ~/materials-fa25-staff.
+    1. Stage and create a commit using git add lec/lec01/* and git commit -m 'Update Lecture 01 from #11'. The #11 is a reference to issue 11 in the staff repository. This is good to include in order to follow how the commits are related to the issues in the project.
+    1. Push the commit using git push.
 
 - When it is time to release materials to students, then you'll repeat a similar process. For example, if you're ready to share the Lecture 01 content with students, then you'll
-    1. Run the command `cp -ru ~/materials-fa25-staff/lec/lec01/student/* ~/materials-fa25/lec/lec01/`. Again, this assumes that the `lec/lec01` folders exist in the staff repository. You might need to create those folders ahead of time.
-    1. Change directories to the student repository using the command `cd ~/materials-fa25`.
-    1. Stage and create a commit using `git add lec/lec01/*` and` git commit -m 'Post Lecture 01'`.
-    1. Push the commit using `git push`.
+    1. Run the command cp -ru ~/materials-fa25-staff/lec/lec01/student/* ~/materials-fa25/lec/lec01/. This assumes that the lec/lec01 folders exist in the staff repository. You might need to create those folders ahead of time.
+    1. Change directories to the student repository using the command cd ~/materials-fa25.
+    1. Stage and create a commit using git add lec/lec01/* and git commit -m 'Post Lecture 01'.
+    1. Push the commit using git push.

@@ -1,5 +1,5 @@
 ---
-title: Materials Management
+title: Materials Management (Editing)
 ---
 
 For context, this page is assuming that you are working with our JupyterHub. With a few modifications, this guide will support working offline from your own computer. Additionally, this guide will reference the Fall 2025 semester. Make appropriate updates for other semesters.

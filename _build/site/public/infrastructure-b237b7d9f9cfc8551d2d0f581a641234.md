@@ -67,7 +67,7 @@ We use [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking
    - Each item should be an issue in the repository where its source files live (private if needed).  
    - Assign appropriate `Milestone`, `Module`, `Item`, `Released to Student GitHub`, and set `Status` to `Pending`.  
    - Add an `Assignees` value if known.  
-   - In the issue body, link to development, sample solution, and student versions and note changes needed before review.
+   - In the issue body, link to development, sample solution, and student versions (specify repo/branch/path) and note changes needed before review.
 
 ---
 

@@ -14,9 +14,8 @@ We utilize various technologies to provide students, faculty, and staff with int
 - Coordinate with {term}`Sean Morris`, {term}`Shawn Wiggins`, and MATH 108 Faculty to make sure the CCSF JupyterHub is update to date and functioning correctly.
 - Prepare the GitHub Project for the current semester.
 - Prepare MATH 108 materials for instructor review.
-- Edit or assign someone to edit the materials that needed to be updated or created.
-- Make sure the project is updated as needed to keep the instructors and staff informed about the status of the course materials.
-- Distribute instructor reviewed materials to students at the pace of the established Milestone dates.
+- Update the Project as needed to keep the instructors and staff informed about the status of the course materials.
+- Distribute instructor reviewed materials to students.
 
 ---
 
