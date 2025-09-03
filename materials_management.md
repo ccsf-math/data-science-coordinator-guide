@@ -53,7 +53,7 @@ As an editor, you should only edit the main notebooks found in the [materials re
 1. Shutdown the notebook's kernel.
 1. Save the notebook.
 1. Run the `generate_dist_files` script by typing the command `./generate_dist_files` in a terminal in the `~/materials` directory.
-1. Stage the content you want to commit to GitHub. For example, the command `git add ~/materials/lec/lec01/*` will stage all the files in the `lec01` folder for the commit.
+1. Stage the content you want to commit to GitHub. For example, the command `git add -f ~/materials/dist/lec/lec01/* ~/materials/lec/lec01/*` will stage all the files in the `lec01` folder for the commit.
 1. Create the commit with an update message. For example, the command `git commit -m 'Copy content from previous semester'` will create a commit with a message.
 1. Push the commit to GitHub using the command `git push`.
 
@@ -70,7 +70,7 @@ flowchart TD;
 ```
 
 - For faculty and staff review, you'll want to share both versions of the notebook. If you want to share the content in `~/materials/lec/lec01/` with the staff, then you'll 
-    1. Run the command `cp -ru ~/materials/lec/lec01/* ~/materials-fa25-staff/lec/lec01/`. This assumes that the `lec/lec01` folders exist in the staff repository. You might need to create those ahead of time.
+    1. Run the command `cp -ru ~/materials/dist/lec/lec01/* ~/materials-fa25-staff/lec/lec01/`. This assumes that the `lec/lec01` folders exist in the staff repository. You might need to create those ahead of time.
     1. Change directories to the staff repository using the command cd `~/materials-fa25-staff`.
     1. Stage and create a commit using `git add lec/lec01/*` and `git commit -m 'Update Lecture 01 from #11'`. The `#11` is a reference to issue 11 in the staff repository. This is good to include in order to follow how the commits are related to the issues in the project.
     1. Push the commit using `git push`.
